@@ -15,6 +15,7 @@ app.get("/getUser",function(req,res){
     res.json(jsonData.student)
 })
 
+//home route
 app.get("/",function(req,res){
     res.json(jsonData)
 })
